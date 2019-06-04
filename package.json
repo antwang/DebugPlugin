@@ -1,0 +1,19 @@
+{
+  "name": "debug-webpack-plugin",
+  "version": "1.0.0",
+  "description": "a simple plugin for webpack and vconsole",
+  "main": "DebugPlugin.js",
+  "dependencies": {
+    "vconsole": "^3.3.0"
+  },
+  "devDependencies": {},
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [
+    "webpack",
+    "vconsole"
+  ],
+  "author": "antwang",
+  "license": "ISC"
+}
