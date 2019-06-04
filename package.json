@@ -1,5 +1,5 @@
 {
-  "name": "debug-webpack-plugin",
+  "name": "debugtool-webpack-plugin",
   "version": "1.0.0",
   "description": "a simple plugin for webpack and vconsole",
   "main": "DebugPlugin.js",
