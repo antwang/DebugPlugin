@@ -11,7 +11,7 @@ class DebugPlugin {
   }
 
   addVConsole(localPath, entry) {
-    let vconslePath = "DebugPlugin/vconsole.js";
+    let vconslePath = "debugtool-webpack-plugin/vconsole.js";
     const { enable } = this.options;
     const _exist = module.parent.paths.find(item => {
       let _vconslePath = path.join(item, vconslePath);
@@ -23,7 +23,7 @@ class DebugPlugin {
     });
 
     if (!_exist) {
-      console.error("DebugPlugin/vconsole.js not found!");
+      console.error("debugtool-webpack-plugin/vconsole.js not found!");
       return;
     }
 
