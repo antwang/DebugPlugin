@@ -1,10 +1,11 @@
 {
   "name": "debugtool-webpack-plugin",
-  "version": "1.0.2",
+  "version": "1.1.0",
   "description": "a simple plugin for webpack and vconsole",
   "main": "DebugPlugin.js",
   "dependencies": {
-    "vconsole": "^3.3.0"
+    "vconsole": "^3.3.0",
+    "webpack": "^4.33.0"
   },
   "devDependencies": {},
   "scripts": {
