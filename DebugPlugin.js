@@ -45,8 +45,8 @@ class DebugPlugin {
             itemToPlugin(context, entry[name], name).apply(compiler);
           }
         }
+        return true;
       }
-      return true;
     });
   }
 }
