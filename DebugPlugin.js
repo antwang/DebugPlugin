@@ -34,7 +34,7 @@ class DebugPlugin {
         } else if (Array.isArray(entry)) {
           entry.unshift(vconslePath);
         } else if (typeof entry === "object") {
-          entry[key] = vconslePath;
+          entry["vconsole"] = vconslePath;
         }
 
         // 使用entryPlugin重新解析entry
